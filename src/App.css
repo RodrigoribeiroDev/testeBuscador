@@ -1,0 +1,49 @@
+.App {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body{
+  background-color: #ecc14a;
+}
+
+.container{
+  border: 2px solid;
+  width: 500px;
+  height: 50%;
+  position: relative;
+  padding: 4%;
+}
+.exibir{
+  padding: 3%;
+}
+h1{ 
+  position: absolute;
+  right: 20px;
+  top: 15%;
+  font-size: 300%;
+  color: rgb(0, 6, 16);
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+button{
+  justify-content: center;
+  position: relative;
+  background-color: rgb(19, 19, 18);
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  color: azure;
+  border-color: rgb(51, 38, 38);
+  border: 1px solid;
+  border-radius: 10%;
+}
+
+span{
+  color: rgb(19, 30, 85);
+  Font-family: Franklin Gothic, Arial Bold;
+}
+input{
+  height: 25px;
+}
